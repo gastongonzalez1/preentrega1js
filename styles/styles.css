@@ -1,0 +1,157 @@
+/************************  GLOBALES ***************************************/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F2DFE4;
+}
+
+.logo{
+    width: fit-content;
+}
+.logo img {
+    width: 10rem;
+}
+a,p,h1,h2,h3,h4,h5,h6,label,li {
+    font-family: "Lato";
+    text-transform: capitalize;
+}
+/****************   tarjeta **************************************/
+.tarjetas{
+    width: 100%;
+}
+.tarjeta {
+    width: 22rem;
+    background-color: #F2D1C9;
+    padding: 1rem;
+    margin: 1rem;
+}
+.tarjeta .imagen img {
+    width: 100%;
+    height: 15rem;
+}
+/****************   HEADER         **************************************/
+.header{
+    width: 100%;
+    background-color: #F2D1C9;
+}
+.header .logo {
+    width: fit-content;
+}
+ .header .logo img {
+    width: 10rem;
+}
+.header .navegacion {
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+.header .navegacion ul {
+    width: fit-content;
+
+}
+.header .navegacion ul li {
+    margin: .5rem;
+    list-style: none;
+}
+.header .navegacion ul li a {
+    color:  #000;
+    text-decoration: none;
+}
+/****************   reposteria **************************************/
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 11ad743b81744d9ff4756b387f08e7f0e4101de4
+.tortas{
+    width: 100%;
+}
+.torta {
+    width: 22rem;
+    background-color: #F2D1C9;
+    padding: 1rem;
+    margin: 1rem;
+}
+.torta .imagen img {
+    width: 100%;
+    height: 15rem;
+}
+
+/****************   contacto **************************************/
+
+.contacto{
+    width: 100%;
+    background-color: #F2D1C9;
+    padding: .5rem;
+    margin: 2rem 0;
+}
+.contacto .titulo_seccion {
+    width: fit-content;
+}
+.contenido_contacto {
+    width: 100%;
+    padding: 1rem;
+}
+.contenido_contacto .mapa {
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+.contenido_contacto .mapa iframe {
+    width: 20rem;
+    height: 20rem;
+}
+.contenido_contacto .informacion {
+    width: max-content;
+}
+.contenido_contacto .informacion p {
+    width: fit-content;
+}
+/****************   tortas **************************************/
+.tortas .torta img {
+    width: 100%;
+    height: 15rem;
+}
+/****************   tartas **************************************/
+.tartas{
+    width: 100%;
+}
+.tarta {
+    width: 22rem;
+    background-color: #F2D1C9;
+    padding: 1rem;
+    margin: 1rem;
+}
+.tarta img {
+    width: 100%;
+    height: 15rem;
+}
+/****************   postres **************************************/
+.postre img {
+    width: 100%;
+    height: 15rem;
+}
+/****************   FOOTER **************************************/
+.footer {
+    width: 100%;
+    background-color: #F2D1C9;
+    padding: 1rem;
+}
+.footer_contenedor .logo {
+    width: fit-content;
+    padding: 0 34rem;
+}
+.footer_contenedor .logo img {
+    width: 10rem;
+}
+.footer_contenedor .redes > * {
+    display: inline;
+    padding: 0 .5rem;
+}
+.footer .footer_contenedor .redes .icon a img {
+    width: 3rem;
+}
